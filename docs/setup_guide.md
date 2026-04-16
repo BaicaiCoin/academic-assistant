@@ -109,14 +109,16 @@ REDIS_URL="redis://localhost:6379"
 
 ## 4. 前端配置
 
+前端代码位于仓库根目录下的 `frontend/` 子目录：
+
 ```bash
-cd Academic_frontend
+cd frontend
 npm install
 ```
 
 前端默认连接 `http://localhost:8000`，无需修改配置即可使用。
 
-若后端运行在其他地址，修改 `Academic_frontend/.env`：
+若后端运行在其他地址，修改 `frontend/.env`：
 
 ```dotenv
 VITE_API_URL=http://your-backend-address:8000
@@ -192,7 +194,7 @@ uvicorn server:app --host 0.0.0.0 --port 8000 --reload
 ### 终端 4：前端开发服务器
 
 ```bash
-cd Academic_frontend
+cd frontend
 npm run dev
 ```
 
