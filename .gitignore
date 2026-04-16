@@ -1,0 +1,42 @@
+# === 敏感信息 ===
+.env
+
+# === 个人数据 ===
+data/dataset/memories.db
+data/dataset/threads.db
+data/eval_log.db
+
+# === 大文件 / 临时文件 ===
+data/videos/
+data/pdfs/
+data/keyframes/
+
+# === 预置数据（保留，不忽略）===
+# data/dataset/GRPO.db        ← 保留
+# data/pdf_tmp/GRPO.json      ← 保留
+# data/video_tmp/GRPO/        ← 保留
+# data/graph_tmp/GRPO/        ← 保留
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.Python
+*.egg
+dist/
+build/
+.venv/
+*.so
+
+# === LangGraph 运行时文件 ===
+.langgraph_api/
+
+# === Claude Code 配置 ===
+.claude/
+
+# === 杂项 ===
+=1.3.3
+*.db-shm
+*.db-wal
+.DS_Store

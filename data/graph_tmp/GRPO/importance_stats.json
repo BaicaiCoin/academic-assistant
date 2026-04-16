@@ -1,0 +1,1303 @@
+{
+  "summary": {
+    "total_unique_entities": 143,
+    "avg_importance_overall": 0.664
+  },
+  "importance_distribution": {
+    ">=0.3": 143,
+    ">=0.4": 142,
+    ">=0.5": 131,
+    ">=0.6": 107,
+    ">=0.7": 65,
+    ">=0.8": 24
+  },
+  "entities": [
+    {
+      "name": "DeepSeekMath",
+      "total_mentions": 7,
+      "paper_mentions": 6,
+      "video_mentions": 1,
+      "max_importance": 1.0,
+      "avg_importance": 0.986,
+      "score": 0.994
+    },
+    {
+      "name": "DeepSeekMath-RL 7B",
+      "total_mentions": 8,
+      "paper_mentions": 5,
+      "video_mentions": 3,
+      "max_importance": 1.0,
+      "avg_importance": 0.95,
+      "score": 0.98
+    },
+    {
+      "name": "Group Relative Policy Optimization (GRPO)",
+      "total_mentions": 37,
+      "paper_mentions": 25,
+      "video_mentions": 12,
+      "max_importance": 1.0,
+      "avg_importance": 0.93,
+      "score": 0.972
+    },
+    {
+      "name": "DeepSeekMath-Base",
+      "total_mentions": 23,
+      "paper_mentions": 14,
+      "video_mentions": 9,
+      "max_importance": 1.0,
+      "avg_importance": 0.913,
+      "score": 0.965
+    },
+    {
+      "name": "DeepSeekLLM 1.3B",
+      "total_mentions": 5,
+      "paper_mentions": 4,
+      "video_mentions": 1,
+      "max_importance": 1.0,
+      "avg_importance": 0.9,
+      "score": 0.96
+    },
+    {
+      "name": "DeepSeekMath Corpus",
+      "total_mentions": 16,
+      "paper_mentions": 12,
+      "video_mentions": 4,
+      "max_importance": 1.0,
+      "avg_importance": 0.891,
+      "score": 0.956
+    },
+    {
+      "name": "One-Stage Training",
+      "total_mentions": 4,
+      "paper_mentions": 2,
+      "video_mentions": 2,
+      "max_importance": 1.0,
+      "avg_importance": 0.875,
+      "score": 0.95
+    },
+    {
+      "name": "Online Rejection Sampling Fine-tuning (Online RFT)",
+      "total_mentions": 8,
+      "paper_mentions": 6,
+      "video_mentions": 2,
+      "max_importance": 1.0,
+      "avg_importance": 0.875,
+      "score": 0.95
+    },
+    {
+      "name": "DeepSeekMath-Instruct 7B",
+      "total_mentions": 18,
+      "paper_mentions": 13,
+      "video_mentions": 5,
+      "max_importance": 1.0,
+      "avg_importance": 0.867,
+      "score": 0.947
+    },
+    {
+      "name": "Two-Stage Training",
+      "total_mentions": 5,
+      "paper_mentions": 3,
+      "video_mentions": 2,
+      "max_importance": 1.0,
+      "avg_importance": 0.84,
+      "score": 0.936
+    },
+    {
+      "name": "Unified Paradigm",
+      "total_mentions": 6,
+      "paper_mentions": 3,
+      "video_mentions": 3,
+      "max_importance": 1.0,
+      "avg_importance": 0.833,
+      "score": 0.933
+    },
+    {
+      "name": "Reinforcement Learning",
+      "total_mentions": 31,
+      "paper_mentions": 24,
+      "video_mentions": 7,
+      "max_importance": 1.0,
+      "avg_importance": 0.784,
+      "score": 0.914
+    },
+    {
+      "name": "Code training",
+      "total_mentions": 10,
+      "paper_mentions": 8,
+      "video_mentions": 2,
+      "max_importance": 1.0,
+      "avg_importance": 0.78,
+      "score": 0.912
+    },
+    {
+      "name": "Mathematical instruction tuning",
+      "total_mentions": 11,
+      "paper_mentions": 9,
+      "video_mentions": 2,
+      "max_importance": 1.0,
+      "avg_importance": 0.764,
+      "score": 0.905
+    },
+    {
+      "name": "Proximal Policy Optimization (PPO)",
+      "total_mentions": 20,
+      "paper_mentions": 14,
+      "video_mentions": 6,
+      "max_importance": 1.0,
+      "avg_importance": 0.76,
+      "score": 0.904
+    },
+    {
+      "name": "math training experiments",
+      "total_mentions": 11,
+      "paper_mentions": 9,
+      "video_mentions": 2,
+      "max_importance": 1.0,
+      "avg_importance": 0.755,
+      "score": 0.902
+    },
+    {
+      "name": "Rejection Sampling Fine-Tuning (RFT)",
+      "total_mentions": 10,
+      "paper_mentions": 8,
+      "video_mentions": 2,
+      "max_importance": 1.0,
+      "avg_importance": 0.75,
+      "score": 0.9
+    },
+    {
+      "name": "benchmark contamination",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.9,
+      "avg_importance": 0.9,
+      "score": 0.9
+    },
+    {
+      "name": "ˆ 𝐴𝑖",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.9,
+      "avg_importance": 0.9,
+      "score": 0.9
+    },
+    {
+      "name": "$̂ A_{i,t}$",
+      "total_mentions": 1,
+      "paper_mentions": 0,
+      "video_mentions": 1,
+      "max_importance": 0.9,
+      "avg_importance": 0.9,
+      "score": 0.9
+    },
+    {
+      "name": "outcome v.s. process supervision",
+      "total_mentions": 9,
+      "paper_mentions": 6,
+      "video_mentions": 3,
+      "max_importance": 1.0,
+      "avg_importance": 0.744,
+      "score": 0.898
+    },
+    {
+      "name": "Mathematical Reasoning",
+      "total_mentions": 38,
+      "paper_mentions": 31,
+      "video_mentions": 7,
+      "max_importance": 1.0,
+      "avg_importance": 0.741,
+      "score": 0.896
+    },
+    {
+      "name": "Evaluation Results",
+      "total_mentions": 3,
+      "paper_mentions": 2,
+      "video_mentions": 1,
+      "max_importance": 1.0,
+      "avg_importance": 0.733,
+      "score": 0.893
+    },
+    {
+      "name": "Pre-training",
+      "total_mentions": 17,
+      "paper_mentions": 13,
+      "video_mentions": 4,
+      "max_importance": 1.0,
+      "avg_importance": 0.726,
+      "score": 0.891
+    },
+    {
+      "name": "fastText-based classifier",
+      "total_mentions": 9,
+      "paper_mentions": 8,
+      "video_mentions": 1,
+      "max_importance": 0.95,
+      "avg_importance": 0.794,
+      "score": 0.888
+    },
+    {
+      "name": "KL penalty",
+      "total_mentions": 7,
+      "paper_mentions": 4,
+      "video_mentions": 3,
+      "max_importance": 1.0,
+      "avg_importance": 0.714,
+      "score": 0.886
+    },
+    {
+      "name": "Reward Function",
+      "total_mentions": 14,
+      "paper_mentions": 11,
+      "video_mentions": 3,
+      "max_importance": 1.0,
+      "avg_importance": 0.714,
+      "score": 0.886
+    },
+    {
+      "name": "Direct Preference Optimization (DPO)",
+      "total_mentions": 9,
+      "paper_mentions": 8,
+      "video_mentions": 1,
+      "max_importance": 1.0,
+      "avg_importance": 0.7,
+      "score": 0.88
+    },
+    {
+      "name": "DeepSeekMath-Instruct 1.3B",
+      "total_mentions": 2,
+      "paper_mentions": 1,
+      "video_mentions": 1,
+      "max_importance": 0.9,
+      "avg_importance": 0.85,
+      "score": 0.88
+    },
+    {
+      "name": "Weak-to-strong generalization",
+      "total_mentions": 2,
+      "paper_mentions": 1,
+      "video_mentions": 1,
+      "max_importance": 0.9,
+      "avg_importance": 0.85,
+      "score": 0.88
+    },
+    {
+      "name": "Supervised Fine-tuning (SFT)",
+      "total_mentions": 21,
+      "paper_mentions": 13,
+      "video_mentions": 8,
+      "max_importance": 1.0,
+      "avg_importance": 0.695,
+      "score": 0.878
+    },
+    {
+      "name": "ˆ 𝐴𝑖 , 𝑡",
+      "total_mentions": 8,
+      "paper_mentions": 4,
+      "video_mentions": 4,
+      "max_importance": 0.9,
+      "avg_importance": 0.825,
+      "score": 0.87
+    },
+    {
+      "name": "Maj@K",
+      "total_mentions": 4,
+      "paper_mentions": 3,
+      "video_mentions": 1,
+      "max_importance": 0.9,
+      "avg_importance": 0.825,
+      "score": 0.87
+    },
+    {
+      "name": "arXiv papers",
+      "total_mentions": 15,
+      "paper_mentions": 12,
+      "video_mentions": 3,
+      "max_importance": 1.0,
+      "avg_importance": 0.653,
+      "score": 0.861
+    },
+    {
+      "name": "Pass@K",
+      "total_mentions": 4,
+      "paper_mentions": 2,
+      "video_mentions": 2,
+      "max_importance": 0.9,
+      "avg_importance": 0.8,
+      "score": 0.86
+    },
+    {
+      "name": "DeepSeek-LLM 1.3B",
+      "total_mentions": 7,
+      "paper_mentions": 5,
+      "video_mentions": 2,
+      "max_importance": 0.9,
+      "avg_importance": 0.771,
+      "score": 0.849
+    },
+    {
+      "name": "Reward model",
+      "total_mentions": 16,
+      "paper_mentions": 13,
+      "video_mentions": 3,
+      "max_importance": 0.9,
+      "avg_importance": 0.759,
+      "score": 0.844
+    },
+    {
+      "name": "DeepSeek-Coder-Base-v1.5 7B",
+      "total_mentions": 15,
+      "paper_mentions": 11,
+      "video_mentions": 4,
+      "max_importance": 0.9,
+      "avg_importance": 0.753,
+      "score": 0.841
+    },
+    {
+      "name": "single-turn v.s. iterative reinforcement learning",
+      "total_mentions": 3,
+      "paper_mentions": 3,
+      "video_mentions": 0,
+      "max_importance": 0.9,
+      "avg_importance": 0.733,
+      "score": 0.833
+    },
+    {
+      "name": "MATH benchmark",
+      "total_mentions": 34,
+      "paper_mentions": 22,
+      "video_mentions": 12,
+      "max_importance": 0.9,
+      "avg_importance": 0.731,
+      "score": 0.832
+    },
+    {
+      "name": "Chain-of-thought",
+      "total_mentions": 18,
+      "paper_mentions": 15,
+      "video_mentions": 3,
+      "max_importance": 0.9,
+      "avg_importance": 0.728,
+      "score": 0.831
+    },
+    {
+      "name": "miniF2F",
+      "total_mentions": 6,
+      "paper_mentions": 4,
+      "video_mentions": 2,
+      "max_importance": 0.9,
+      "avg_importance": 0.717,
+      "score": 0.827
+    },
+    {
+      "name": "Program-of-thought",
+      "total_mentions": 7,
+      "paper_mentions": 5,
+      "video_mentions": 2,
+      "max_importance": 0.9,
+      "avg_importance": 0.714,
+      "score": 0.826
+    },
+    {
+      "name": "Equation 21",
+      "total_mentions": 3,
+      "paper_mentions": 1,
+      "video_mentions": 2,
+      "max_importance": 0.9,
+      "avg_importance": 0.7,
+      "score": 0.82
+    },
+    {
+      "name": "Algorithm",
+      "total_mentions": 4,
+      "paper_mentions": 2,
+      "video_mentions": 2,
+      "max_importance": 0.9,
+      "avg_importance": 0.7,
+      "score": 0.82
+    },
+    {
+      "name": "Data Source",
+      "total_mentions": 11,
+      "paper_mentions": 8,
+      "video_mentions": 3,
+      "max_importance": 0.9,
+      "avg_importance": 0.691,
+      "score": 0.816
+    },
+    {
+      "name": "KL divergence",
+      "total_mentions": 5,
+      "paper_mentions": 2,
+      "video_mentions": 3,
+      "max_importance": 0.9,
+      "avg_importance": 0.68,
+      "score": 0.812
+    },
+    {
+      "name": "OpenWebMath",
+      "total_mentions": 7,
+      "paper_mentions": 5,
+      "video_mentions": 2,
+      "max_importance": 0.9,
+      "avg_importance": 0.671,
+      "score": 0.809
+    },
+    {
+      "name": "gradient coefficient GC",
+      "total_mentions": 13,
+      "paper_mentions": 11,
+      "video_mentions": 2,
+      "max_importance": 0.9,
+      "avg_importance": 0.654,
+      "score": 0.802
+    },
+    {
+      "name": "DeepSeekMath-Corpus",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.8,
+      "avg_importance": 0.8,
+      "score": 0.8
+    },
+    {
+      "name": "Proof autoformalization",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.8,
+      "avg_importance": 0.8,
+      "score": 0.8
+    },
+    {
+      "name": "Speculative decoding",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.8,
+      "avg_importance": 0.8,
+      "score": 0.8
+    },
+    {
+      "name": "J 𝑅𝐹𝑇 ( 𝜃 )",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.8,
+      "avg_importance": 0.8,
+      "score": 0.8
+    },
+    {
+      "name": "ˆ 𝐴𝑖, 𝑡",
+      "total_mentions": 1,
+      "paper_mentions": 0,
+      "video_mentions": 1,
+      "max_importance": 0.8,
+      "avg_importance": 0.8,
+      "score": 0.8
+    },
+    {
+      "name": "mathematical benchmarks",
+      "total_mentions": 11,
+      "paper_mentions": 9,
+      "video_mentions": 2,
+      "max_importance": 0.9,
+      "avg_importance": 0.636,
+      "score": 0.795
+    },
+    {
+      "name": "Generalized Advantage Estimation (GAE)",
+      "total_mentions": 5,
+      "paper_mentions": 3,
+      "video_mentions": 2,
+      "max_importance": 0.9,
+      "avg_importance": 0.62,
+      "score": 0.788
+    },
+    {
+      "name": "AGIEval",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.8,
+      "avg_importance": 0.75,
+      "score": 0.78
+    },
+    {
+      "name": "Open Language Models",
+      "total_mentions": 9,
+      "paper_mentions": 8,
+      "video_mentions": 1,
+      "max_importance": 0.9,
+      "avg_importance": 0.589,
+      "score": 0.776
+    },
+    {
+      "name": "Tool-integrated reasoning",
+      "total_mentions": 13,
+      "paper_mentions": 10,
+      "video_mentions": 3,
+      "max_importance": 0.8,
+      "avg_importance": 0.738,
+      "score": 0.775
+    },
+    {
+      "name": "Value function",
+      "total_mentions": 6,
+      "paper_mentions": 3,
+      "video_mentions": 3,
+      "max_importance": 0.8,
+      "avg_importance": 0.733,
+      "score": 0.773
+    },
+    {
+      "name": "Reward Model",
+      "total_mentions": 3,
+      "paper_mentions": 0,
+      "video_mentions": 3,
+      "max_importance": 0.8,
+      "avg_importance": 0.733,
+      "score": 0.773
+    },
+    {
+      "name": "Common Crawl",
+      "total_mentions": 10,
+      "paper_mentions": 8,
+      "video_mentions": 2,
+      "max_importance": 0.85,
+      "avg_importance": 0.645,
+      "score": 0.768
+    },
+    {
+      "name": "MathPile",
+      "total_mentions": 5,
+      "paper_mentions": 3,
+      "video_mentions": 2,
+      "max_importance": 0.8,
+      "avg_importance": 0.72,
+      "score": 0.768
+    },
+    {
+      "name": "HumanEval",
+      "total_mentions": 6,
+      "paper_mentions": 3,
+      "video_mentions": 3,
+      "max_importance": 0.8,
+      "avg_importance": 0.717,
+      "score": 0.767
+    },
+    {
+      "name": "MBPP",
+      "total_mentions": 6,
+      "paper_mentions": 3,
+      "video_mentions": 3,
+      "max_importance": 0.8,
+      "avg_importance": 0.717,
+      "score": 0.767
+    },
+    {
+      "name": "ArXiv-RedPajama",
+      "total_mentions": 4,
+      "paper_mentions": 3,
+      "video_mentions": 1,
+      "max_importance": 0.8,
+      "avg_importance": 0.7,
+      "score": 0.76
+    },
+    {
+      "name": "Mathematical Problem Solving with Tool Use",
+      "total_mentions": 2,
+      "paper_mentions": 0,
+      "video_mentions": 2,
+      "max_importance": 0.8,
+      "avg_importance": 0.7,
+      "score": 0.76
+    },
+    {
+      "name": "Formal Mathematics",
+      "total_mentions": 2,
+      "paper_mentions": 0,
+      "video_mentions": 2,
+      "max_importance": 0.8,
+      "avg_importance": 0.7,
+      "score": 0.76
+    },
+    {
+      "name": "Natural Language Understanding",
+      "total_mentions": 2,
+      "paper_mentions": 0,
+      "video_mentions": 2,
+      "max_importance": 0.8,
+      "avg_importance": 0.7,
+      "score": 0.76
+    },
+    {
+      "name": "GSM8K",
+      "total_mentions": 26,
+      "paper_mentions": 15,
+      "video_mentions": 11,
+      "max_importance": 0.8,
+      "avg_importance": 0.685,
+      "score": 0.754
+    },
+    {
+      "name": "Minerva 540B",
+      "total_mentions": 8,
+      "paper_mentions": 6,
+      "video_mentions": 2,
+      "max_importance": 0.8,
+      "avg_importance": 0.669,
+      "score": 0.748
+    },
+    {
+      "name": "Large Language Models",
+      "total_mentions": 25,
+      "paper_mentions": 24,
+      "video_mentions": 1,
+      "max_importance": 0.9,
+      "avg_importance": 0.504,
+      "score": 0.742
+    },
+    {
+      "name": "BBH",
+      "total_mentions": 10,
+      "paper_mentions": 6,
+      "video_mentions": 4,
+      "max_importance": 0.8,
+      "avg_importance": 0.65,
+      "score": 0.74
+    },
+    {
+      "name": "Chinese mathematical benchmarks",
+      "total_mentions": 7,
+      "paper_mentions": 7,
+      "video_mentions": 0,
+      "max_importance": 0.8,
+      "avg_importance": 0.643,
+      "score": 0.737
+    },
+    {
+      "name": "πθ",
+      "total_mentions": 8,
+      "paper_mentions": 5,
+      "video_mentions": 3,
+      "max_importance": 0.8,
+      "avg_importance": 0.637,
+      "score": 0.735
+    },
+    {
+      "name": "Top1 accuracy",
+      "total_mentions": 3,
+      "paper_mentions": 2,
+      "video_mentions": 1,
+      "max_importance": 0.8,
+      "avg_importance": 0.633,
+      "score": 0.733
+    },
+    {
+      "name": "MMLU",
+      "total_mentions": 15,
+      "paper_mentions": 9,
+      "video_mentions": 6,
+      "max_importance": 0.8,
+      "avg_importance": 0.633,
+      "score": 0.733
+    },
+    {
+      "name": "online v.s. offline training",
+      "total_mentions": 3,
+      "paper_mentions": 3,
+      "video_mentions": 0,
+      "max_importance": 0.8,
+      "avg_importance": 0.633,
+      "score": 0.733
+    },
+    {
+      "name": "Isabelle",
+      "total_mentions": 6,
+      "paper_mentions": 6,
+      "video_mentions": 0,
+      "max_importance": 0.8,
+      "avg_importance": 0.633,
+      "score": 0.733
+    },
+    {
+      "name": "GPT-4",
+      "total_mentions": 10,
+      "paper_mentions": 6,
+      "video_mentions": 4,
+      "max_importance": 0.8,
+      "avg_importance": 0.61,
+      "score": 0.724
+    },
+    {
+      "name": "word n-gram",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.8,
+      "avg_importance": 0.6,
+      "score": 0.72
+    },
+    {
+      "name": "surrogate objective",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.8,
+      "avg_importance": 0.6,
+      "score": 0.72
+    },
+    {
+      "name": "Vψ",
+      "total_mentions": 3,
+      "paper_mentions": 2,
+      "video_mentions": 1,
+      "max_importance": 0.8,
+      "avg_importance": 0.6,
+      "score": 0.72
+    },
+    {
+      "name": "DeepSeek LLMs",
+      "total_mentions": 5,
+      "paper_mentions": 4,
+      "video_mentions": 1,
+      "max_importance": 0.8,
+      "avg_importance": 0.58,
+      "score": 0.712
+    },
+    {
+      "name": "Algorithm A",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.7,
+      "avg_importance": 0.7,
+      "score": 0.7
+    },
+    {
+      "name": "Equation 5",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.7,
+      "avg_importance": 0.7,
+      "score": 0.7
+    },
+    {
+      "name": "GLM",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.7,
+      "avg_importance": 0.7,
+      "score": 0.7
+    },
+    {
+      "name": "PAL",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.7,
+      "avg_importance": 0.7,
+      "score": 0.7
+    },
+    {
+      "name": "LILA",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.7,
+      "avg_importance": 0.7,
+      "score": 0.7
+    },
+    {
+      "name": "Replay mechanism",
+      "total_mentions": 1,
+      "paper_mentions": 0,
+      "video_mentions": 1,
+      "max_importance": 0.7,
+      "avg_importance": 0.7,
+      "score": 0.7
+    },
+    {
+      "name": "Few-shot prompting",
+      "total_mentions": 5,
+      "paper_mentions": 4,
+      "video_mentions": 1,
+      "max_importance": 0.7,
+      "avg_importance": 0.68,
+      "score": 0.692
+    },
+    {
+      "name": "Math-Shepherd-Mistral 7B",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.7,
+      "avg_importance": 0.65,
+      "score": 0.68
+    },
+    {
+      "name": "ToRA 34B",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.7,
+      "avg_importance": 0.65,
+      "score": 0.68
+    },
+    {
+      "name": "Llama 2",
+      "total_mentions": 2,
+      "paper_mentions": 1,
+      "video_mentions": 1,
+      "max_importance": 0.7,
+      "avg_importance": 0.65,
+      "score": 0.68
+    },
+    {
+      "name": "replay mechanism",
+      "total_mentions": 3,
+      "paper_mentions": 2,
+      "video_mentions": 1,
+      "max_importance": 0.7,
+      "avg_importance": 0.633,
+      "score": 0.673
+    },
+    {
+      "name": "Qwen 72B",
+      "total_mentions": 4,
+      "paper_mentions": 3,
+      "video_mentions": 1,
+      "max_importance": 0.7,
+      "avg_importance": 0.625,
+      "score": 0.67
+    },
+    {
+      "name": "human annotation",
+      "total_mentions": 6,
+      "paper_mentions": 5,
+      "video_mentions": 1,
+      "max_importance": 0.75,
+      "avg_importance": 0.542,
+      "score": 0.667
+    },
+    {
+      "name": "CMATH",
+      "total_mentions": 10,
+      "paper_mentions": 4,
+      "video_mentions": 6,
+      "max_importance": 0.7,
+      "avg_importance": 0.61,
+      "score": 0.664
+    },
+    {
+      "name": "Llemma-34B",
+      "total_mentions": 8,
+      "paper_mentions": 4,
+      "video_mentions": 4,
+      "max_importance": 0.7,
+      "avg_importance": 0.6,
+      "score": 0.66
+    },
+    {
+      "name": "Proof-Pile-2",
+      "total_mentions": 4,
+      "paper_mentions": 3,
+      "video_mentions": 1,
+      "max_importance": 0.7,
+      "avg_importance": 0.6,
+      "score": 0.66
+    },
+    {
+      "name": "HAI-LLM",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.7,
+      "avg_importance": 0.6,
+      "score": 0.66
+    },
+    {
+      "name": "SeaLLM-v2 7B",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.7,
+      "avg_importance": 0.6,
+      "score": 0.66
+    },
+    {
+      "name": "Reference model",
+      "total_mentions": 7,
+      "paper_mentions": 4,
+      "video_mentions": 3,
+      "max_importance": 0.7,
+      "avg_importance": 0.6,
+      "score": 0.66
+    },
+    {
+      "name": "Data Source D",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.7,
+      "avg_importance": 0.6,
+      "score": 0.66
+    },
+    {
+      "name": "Mistral 7B",
+      "total_mentions": 9,
+      "paper_mentions": 5,
+      "video_mentions": 4,
+      "max_importance": 0.7,
+      "avg_importance": 0.589,
+      "score": 0.656
+    },
+    {
+      "name": "rφ",
+      "total_mentions": 3,
+      "paper_mentions": 2,
+      "video_mentions": 1,
+      "max_importance": 0.7,
+      "avg_importance": 0.567,
+      "score": 0.647
+    },
+    {
+      "name": "πref",
+      "total_mentions": 6,
+      "paper_mentions": 2,
+      "video_mentions": 4,
+      "max_importance": 0.7,
+      "avg_importance": 0.567,
+      "score": 0.647
+    },
+    {
+      "name": "Gemini-Ultra",
+      "total_mentions": 8,
+      "paper_mentions": 4,
+      "video_mentions": 4,
+      "max_importance": 0.7,
+      "avg_importance": 0.562,
+      "score": 0.645
+    },
+    {
+      "name": "training epochs",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.7,
+      "avg_importance": 0.55,
+      "score": 0.64
+    },
+    {
+      "name": "ChatGLM3 6B",
+      "total_mentions": 3,
+      "paper_mentions": 3,
+      "video_mentions": 0,
+      "max_importance": 0.7,
+      "avg_importance": 0.5,
+      "score": 0.62
+    },
+    {
+      "name": "Self-consistency",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.6,
+      "avg_importance": 0.6,
+      "score": 0.6
+    },
+    {
+      "name": "MGSM-zh",
+      "total_mentions": 2,
+      "paper_mentions": 1,
+      "video_mentions": 1,
+      "max_importance": 0.6,
+      "avg_importance": 0.6,
+      "score": 0.6
+    },
+    {
+      "name": "URL-based deduplication",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.6,
+      "avg_importance": 0.6,
+      "score": 0.6
+    },
+    {
+      "name": "near-deduplication",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.6,
+      "avg_importance": 0.6,
+      "score": 0.6
+    },
+    {
+      "name": "Sledgehammer",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.6,
+      "avg_importance": 0.6,
+      "score": 0.6
+    },
+    {
+      "name": "autoregressive blank infilling",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.6,
+      "avg_importance": 0.6,
+      "score": 0.6
+    },
+    {
+      "name": "μ",
+      "total_mentions": 1,
+      "paper_mentions": 0,
+      "video_mentions": 1,
+      "max_importance": 0.6,
+      "avg_importance": 0.6,
+      "score": 0.6
+    },
+    {
+      "name": "SAT",
+      "total_mentions": 4,
+      "paper_mentions": 1,
+      "video_mentions": 3,
+      "max_importance": 0.6,
+      "avg_importance": 0.55,
+      "score": 0.58
+    },
+    {
+      "name": "Gaokao-MathQA",
+      "total_mentions": 6,
+      "paper_mentions": 2,
+      "video_mentions": 4,
+      "max_importance": 0.6,
+      "avg_importance": 0.55,
+      "score": 0.58
+    },
+    {
+      "name": "InternLM2-Math 20B",
+      "total_mentions": 2,
+      "paper_mentions": 1,
+      "video_mentions": 1,
+      "max_importance": 0.6,
+      "avg_importance": 0.55,
+      "score": 0.58
+    },
+    {
+      "name": "General Training",
+      "total_mentions": 2,
+      "paper_mentions": 1,
+      "video_mentions": 1,
+      "max_importance": 0.6,
+      "avg_importance": 0.55,
+      "score": 0.58
+    },
+    {
+      "name": "nucleus sampling",
+      "total_mentions": 2,
+      "paper_mentions": 1,
+      "video_mentions": 1,
+      "max_importance": 0.6,
+      "avg_importance": 0.55,
+      "score": 0.58
+    },
+    {
+      "name": "Gaokao-MathCloze",
+      "total_mentions": 5,
+      "paper_mentions": 1,
+      "video_mentions": 4,
+      "max_importance": 0.6,
+      "avg_importance": 0.54,
+      "score": 0.576
+    },
+    {
+      "name": "OCW Courses",
+      "total_mentions": 3,
+      "paper_mentions": 1,
+      "video_mentions": 2,
+      "max_importance": 0.6,
+      "avg_importance": 0.533,
+      "score": 0.573
+    },
+    {
+      "name": "GLM-4",
+      "total_mentions": 3,
+      "paper_mentions": 2,
+      "video_mentions": 1,
+      "max_importance": 0.6,
+      "avg_importance": 0.533,
+      "score": 0.573
+    },
+    {
+      "name": "WizardMath series",
+      "total_mentions": 3,
+      "paper_mentions": 3,
+      "video_mentions": 0,
+      "max_importance": 0.6,
+      "avg_importance": 0.5,
+      "score": 0.56
+    },
+    {
+      "name": "MetaMath 70B",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.6,
+      "avg_importance": 0.5,
+      "score": 0.56
+    },
+    {
+      "name": "MAmmoTH 70B",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.6,
+      "avg_importance": 0.5,
+      "score": 0.56
+    },
+    {
+      "name": "efficient inference techniques",
+      "total_mentions": 3,
+      "paper_mentions": 2,
+      "video_mentions": 1,
+      "max_importance": 0.6,
+      "avg_importance": 0.5,
+      "score": 0.56
+    },
+    {
+      "name": "β",
+      "total_mentions": 8,
+      "paper_mentions": 4,
+      "video_mentions": 4,
+      "max_importance": 0.6,
+      "avg_importance": 0.487,
+      "score": 0.555
+    },
+    {
+      "name": "external toolkits",
+      "total_mentions": 3,
+      "paper_mentions": 2,
+      "video_mentions": 1,
+      "max_importance": 0.6,
+      "avg_importance": 0.467,
+      "score": 0.547
+    },
+    {
+      "name": "multi-step learning rate schedule",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.5,
+      "avg_importance": 0.5,
+      "score": 0.5
+    },
+    {
+      "name": "KL coefficient",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.5,
+      "avg_importance": 0.5,
+      "score": 0.5
+    },
+    {
+      "name": "context length",
+      "total_mentions": 3,
+      "paper_mentions": 2,
+      "video_mentions": 1,
+      "max_importance": 0.5,
+      "avg_importance": 0.467,
+      "score": 0.487
+    },
+    {
+      "name": "batch size",
+      "total_mentions": 4,
+      "paper_mentions": 4,
+      "video_mentions": 0,
+      "max_importance": 0.5,
+      "avg_importance": 0.45,
+      "score": 0.48
+    },
+    {
+      "name": "θ",
+      "total_mentions": 7,
+      "paper_mentions": 6,
+      "video_mentions": 1,
+      "max_importance": 0.5,
+      "avg_importance": 0.443,
+      "score": 0.477
+    },
+    {
+      "name": "AdamW",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.5,
+      "avg_importance": 0.4,
+      "score": 0.46
+    },
+    {
+      "name": "Equation 10",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.4,
+      "avg_importance": 0.4,
+      "score": 0.4
+    },
+    {
+      "name": "tree-search methods",
+      "total_mentions": 2,
+      "paper_mentions": 2,
+      "video_mentions": 0,
+      "max_importance": 0.4,
+      "avg_importance": 0.4,
+      "score": 0.4
+    },
+    {
+      "name": "Inflection-2",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.4,
+      "avg_importance": 0.4,
+      "score": 0.4
+    },
+    {
+      "name": "Draft, sketch, and prove",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.4,
+      "avg_importance": 0.4,
+      "score": 0.4
+    },
+    {
+      "name": "AlgebraicStack",
+      "total_mentions": 1,
+      "paper_mentions": 0,
+      "video_mentions": 1,
+      "max_importance": 0.4,
+      "avg_importance": 0.4,
+      "score": 0.4
+    },
+    {
+      "name": "voting techniques",
+      "total_mentions": 1,
+      "paper_mentions": 1,
+      "video_mentions": 0,
+      "max_importance": 0.3,
+      "avg_importance": 0.3,
+      "score": 0.3
+    }
+  ]
+}
