@@ -37,11 +37,16 @@
 
 ## 2. 获取代码
 
-项目分为前后端两个独立文件夹：
+克隆仓库后，项目结构如下：
 
 ```
-Academic_assistant/   ← 后端（FastAPI + LangGraph）
-Academic_frontend/    ← 前端（React + Vite）
+academic-assistant/       ← 仓库根目录（也是后端根目录）
+├── src/                  ← 后端源码
+├── server.py
+├── frontend/             ← 前端（React + Vite）
+├── data/                 ← 预置 GRPO 数据
+├── docs/                 ← 文档
+└── environment.yml
 ```
 
 ---
@@ -51,7 +56,8 @@ Academic_frontend/    ← 前端（React + Vite）
 ### 3.1 创建 Conda 环境
 
 ```bash
-cd Academic_assistant
+git clone https://github.com/BaicaiCoin/academic-assistant.git
+cd academic-assistant
 conda env create -f environment.yml
 conda activate acaAss
 ```
