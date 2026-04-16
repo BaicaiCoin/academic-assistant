@@ -196,10 +196,12 @@ async def chat_new(req: ChatRequest):
 @app.get("/threads")
 async def list_threads():
     """List all thread IDs stored in SQLite."""
-    graph = await get_graph()
+    await get_graph()  # ensure checkpointer is initialised
     try:
-        threads = await _checkpointer.alist()
-        ids = list({t["configurable"]["thread_id"] for t in threads})
+        ids = list({
+            t.config["configurable"]["thread_id"]
+            async for t in _checkpointer.alist()
+        })
         return {"threads": ids}
     except Exception:
         return {"threads": []}

@@ -64,4 +64,6 @@ def _build_root_graph(checkpointer=None, store=None):
 
 
 # langgraph.json 指向这个变量（不带 checkpointer，用于 langgraph dev）
+# Note: no store is injected here, so load_memory / save_memory are no-ops
+# in langgraph dev mode. Use server.py (uvicorn) for full functionality.
 graph = _build_root_graph()

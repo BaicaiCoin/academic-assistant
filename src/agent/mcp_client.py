@@ -31,20 +31,27 @@ async def init_mcp() -> None:
     Start all MCP server subprocesses and load their tools.
     Injects loaded tools into ALL_TOOLS and TOOL_MAP so the Planner sees them.
     Call once at application startup, before the first request.
+
+    Non-fatal: if npx is not installed or GITHUB_TOKEN is invalid the server
+    still starts normally — GitHub search tools simply won't be available.
     """
     global _client
 
-    _client = MultiServerMCPClient(_build_server_config())
-    mcp_tools = await _client.get_tools()
+    try:
+        _client = MultiServerMCPClient(_build_server_config())
+        mcp_tools = await _client.get_tools()
 
-    # Inject into the Brain Agent's static tool registry
-    from agent.tools_and_schemas import ALL_TOOLS, TOOL_MAP
-    for t in mcp_tools:
-        if t.name not in TOOL_MAP:
-            ALL_TOOLS.append(t)
-            TOOL_MAP[t.name] = t
+        # Inject into the Brain Agent's static tool registry
+        from agent.tools_and_schemas import ALL_TOOLS, TOOL_MAP
+        for t in mcp_tools:
+            if t.name not in TOOL_MAP:
+                ALL_TOOLS.append(t)
+                TOOL_MAP[t.name] = t
 
-    print(f"MCP tools loaded: {[t.name for t in mcp_tools]}")
+        print(f"MCP tools loaded: {[t.name for t in mcp_tools]}")
+    except Exception as e:
+        print(f"[warn] MCP init failed ({e}). GitHub tools unavailable.")
+        _client = None
 
 
 async def close_mcp() -> None:
